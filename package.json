@@ -6,7 +6,7 @@
     "scripts": {
         "start": "node ./src/index.js",
         "mocha": "./node_modules/mocha/bin/mocha",
-        "test": "npm run mocha ./src/test/test.js"
+        "test": "npm run mocha ./src/test/"
     },
     "repository": {
         "type": "git",
