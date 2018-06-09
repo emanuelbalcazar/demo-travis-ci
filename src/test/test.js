@@ -16,5 +16,5 @@ it('verifico la operacion multiplicar', () => {
 
 it('verifico la operacion restar', () => {
     let result = calculator.sub(2, 3);
-    result.should.equal(-1);
+    result.should.equal(3);
 });
