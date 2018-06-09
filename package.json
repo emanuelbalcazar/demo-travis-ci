@@ -1,0 +1,25 @@
+{
+    "name": "demo-travis-ci",
+    "version": "1.0.0",
+    "description": "Aplicacion de prueba para integracion continua con travis-ci",
+    "main": "./src/index.js",
+    "scripts": {
+        "start": "node ./src/index.js",
+        "mocha": "./node_modules/mocha/bin/mocha",
+        "test": "npm run mocha ./src/test/test.js"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/emanuelbalcazar/demo-travis-ci.git"
+    },
+    "author": "Carlos Emanuel Balcazar",
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/emanuelbalcazar/demo-travis-ci/issues"
+    },
+    "homepage": "https://github.com/emanuelbalcazar/demo-travis-ci#readme",
+    "dependencies": {
+        "chai": "^4.1.2",
+        "mocha": "^5.2.0"
+    }
+}
